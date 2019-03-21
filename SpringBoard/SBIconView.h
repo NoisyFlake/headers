@@ -21,6 +21,7 @@
 - (void)setIsGrabbed:(BOOL)grabbed;
 - (void)setLabelHidden:(BOOL)hide;
 - (void)showDropGlow:(BOOL)show;
+- (void)setIconLabelAlpha:(double)arg1 ;
 
 - (void)_updateAccessoryViewWithAnimation:(BOOL)animated;
 - (void)_updateLabel;
