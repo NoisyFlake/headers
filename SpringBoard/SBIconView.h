@@ -22,9 +22,15 @@
 - (void)setLabelHidden:(BOOL)hide;
 - (void)showDropGlow:(BOOL)show;
 - (void)setIconLabelAlpha:(double)arg1 ;
+- (double)iconAccessoryAlpha;
+- (long long)location;
+- (unsigned long long)contentType;
+- (void)setContentType:(unsigned long long)arg1 ;
 
 - (void)_updateAccessoryViewWithAnimation:(BOOL)animated;
 - (void)_updateLabel;
+- (BOOL)isEditing;
+-(BOOL)isGrabbed;
 
 - (_UILegibilitySettings *)legibilitySettings;
 
